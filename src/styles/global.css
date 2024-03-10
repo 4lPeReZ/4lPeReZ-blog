@@ -16,21 +16,19 @@
 		0 16px 32px rgba(var(--gray), 33%);
 }
 @font-face {
-	font-family: 'Atkinson';
-	src: url('/fonts/atkinson-regular.woff') format('woff');
+	font-family: 'IBM Plex Mono';
+	src: url('/fonts/IBMPlexMono-Bold.ttf') format('ttf');
 	font-weight: 400;
 	font-style: normal;
-	font-display: swap;
 }
 @font-face {
-	font-family: 'Atkinson';
-	src: url('/fonts/atkinson-bold.woff') format('woff');
+	font-family: 'IBM Plex Mono';
+	src: url('/fonts/IBMPlexMono-Bold.ttf') format('ttf');
 	font-weight: 700;
 	font-style: normal;
-	font-display: swap;
 }
 body {
-	font-family: 'Atkinson', sans-serif;
+	font-family: 'IBM Plex Mono', monospace;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -59,10 +57,10 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: 2.5em;
 }
 h2 {
-	font-size: 2.441em;
+	font-size: 2.941em;
 }
 h3 {
 	font-size: 1.953em;
@@ -85,6 +83,7 @@ a:hover {
 }
 p {
 	margin-bottom: 1em;
+	font-size: 1rem;
 }
 .prose p {
 	margin-bottom: 2em;
